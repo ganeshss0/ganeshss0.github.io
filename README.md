@@ -25,3 +25,9 @@ B.S. Mathematics | Tagore College (_July 2023_)
 
 * As it was a regression problem, ML modelling was started with **LightGBM** regression. During feature engineering, four new features were derived which represented the data in a better way and improved the model performance. Then **XGBOOST** and **Random Forest** were also tested, and random forest turned out to be most accurate. 
 
+### Contact
+- Email: swami.ganesh@proton.me
+- Mobile: +91 759-799-9695
+- [Linkedin](https://linkedin.com/in/ganesh0)
+- [GitHub](https://github.com/ganeshss0)
+- [Telegram](https://t.me/dopodix)
