@@ -3,3 +3,30 @@
 
 
 @import "{{ site.theme }}";
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.contact-section {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Styling for the social icons */
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    font-size: 24px;
+    color: #333;
+    text-decoration: none;
+}
+
+/* Customize the icons (you can use Font Awesome or other icon libraries) */
+.social-icons a:hover {
+    color: #0077B5; /* LinkedIn blue */
+}
