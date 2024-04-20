@@ -3,7 +3,7 @@
 #### Technical Skills: Python, SQL, AWS, Azure, Streamlit, MongoDB, Office, Linux
 
 ## Education			        		
-- B.S., Mathematics | Tagore College (_July 2023_)
+B.S. Mathematics | Tagore College (_July 2023_)
 
 ## Work Experience
 **Internship @ Ineuron.ai (_November 2023 - Present_)**
