@@ -6,12 +6,12 @@
 
 .container {
     display: flex;
-    align-items: center;
+    align-self: center;
 }
-.right {
-    display: flex;
-    align-items: initial;
-}
+// .right {
+//     display: flex;
+//     align-items: initial;
+// }
 
 
 /* Customize the icons (you can use Font Awesome or other icon libraries) */
