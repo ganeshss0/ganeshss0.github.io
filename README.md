@@ -1,61 +1,35 @@
-<html>
-<head>
-    <title>Your Portfolio</title>
-    <style>
-        /* Add your CSS here */
-        body {
-            color: white;
-            background: black;
-            overflow: hidden;
-        }
-    </style>
-</head>
-<body>
-    <canvas id="matrixRain"></canvas>
+# Data Analyst
 
-    <div id="content">
-        <!-- Add your content here -->
-        <h1>Welcome to My Portfolio</h1>
-    </div>
+#### Technical Skills: Python, SQL, AWS, Azure, Streamlit, MongoDB
 
-    <script>
-        // Add your JavaScript here
-        var canvas = document.getElementById('matrixRain');
-        var ctx = canvas.getContext('2d');
+## Education			        		
+- B.S., Mathematics | Tagore College (_July 2023_)
 
-        canvas.height = window.innerHeight;
-        canvas.width = window.innerWidth;
+## Work Experience
+**Internship @ Ineuron.ai (_November 2023 - Present_)**
+- Uncovered and corrected missing step in production data pipeline which impacted over 70% of active accounts
+- Redeveloped loan originations model which resulted in 50% improvement in model performance and saving 1 million dollars in potential losses
 
-        var matrixSymbols = "ABCDEFGHIJKLMNOPQRSTUVWXYZ123456789@#$%^&*()*&^%";
-        matrixSymbols = matrixSymbols.split("");
+## Projects
+### Flight Fare Prediction
+[Publication](https://www.mdpi.com/1424-8220/22/8/3048)
 
-        var font_size = 10;
-        var columns = canvas.width/font_size;
+Developed objective strategy for discovering optimal EEG bands based on signal power spectra using **Python**. This data-driven approach led to better characterization of the underlying power spectrum by identifying bands that outperformed the more commonly used band boundaries by a factor of two. The proposed method provides a fully automated and flexible approach to capturing key signal components and possibly discovering new indices of brain activity.
 
-        var drops = [];
-        for(var x = 0; x < columns; x++)
-            drops[x] = 1; 
 
-        function drawMatrixRain()
-        {
-            ctx.fillStyle = "rgba(0, 0, 0, 0.04)";
-            ctx.fillRect(0, 0, canvas.width, canvas.height);
+### Decoding Physical and Cognitive Impacts of Particulate Matter Concentrations at Ultra-Fine Scales
+[Publication](https://www.mdpi.com/1424-8220/22/11/4240)
 
-            ctx.fillStyle = "#0F0"; 
-            ctx.font = font_size + "px arial";
-            for(var i = 0; i < drops.length; i++)
-            {
-                var text = matrixSymbols[Math.floor(Math.random()*matrixSymbols.length)];
-                ctx.fillText(text, i*font_size, drops[i]*font_size);
+Used **Matlab** to train over 100 machine learning models which estimated particulate matter concentrations based on a suite of over 300 biometric variables. We found biometric variables can be used to accurately estimate particulate matter concentrations at ultra-fine spatial scales with high fidelity (r2 = 0.91) and that smaller particles are better estimated than larger ones. Inferring environmental conditions solely from biometric measurements allows us to disentangle key interactions between the environment and the body.
 
-                if(drops[i]*font_size > canvas.height && Math.random() > 0.975)
-                    drops[i] = 0;
+![Bike Study](/assets/img/bike_study.jpeg)
 
-                drops[i]++;
-            }
-        }
+## Talks & Lectures
+- Causality: The new science of an old question - GSP Seminar, Fall 2021
+- Guest Lecture: Dimensionality Reduction - Big Data and Machine Learning for Scientific Discovery (PHYS 5336), Spring 2021
+- Guest Lecture: Fourier and Wavelet Transforms - Scientific Computing (PHYS 5315), Fall 2020
+- A Brief Introduction to Optimization - GSP Seminar, Fall 2019
+- Weeks of Welcome Poster Competition - UTD, Fall 2019
+- A Brief Introduction to Networks - GSP Seminar, Spring 2019
 
-        setInterval(drawMatrixRain, 33);
-    </script>
-</body>
-</html>
+- [Data Science YouTube](https://www.youtube.com/channel/UCa9gErQ9AE5jT2DZLjXBIdA)
