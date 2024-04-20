@@ -19,34 +19,29 @@
           {% if site.github.is_project_page %}
             <a id="forkme_banner" href="{{ site.github.repository_url }}">View on GitHub</a>
           {% endif %}
-        <div class="container">
-            <div class="left">
-                <div id="photo">
-                    <img src="{{ site.photo }}" alt="Ganesh Swami" width="200">
-                </div>
-                <h1 id="project_title">{{ site.title | default: site.github.repository_name }}</h1>
-                <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
+            <div class="container">
+                <div class="left">
+                    <div id="photo">
+                        <img src="{{ site.photo }}" alt="Ganesh Swami" width="200">
+                    </div>
+                    <h1 id="project_title">{{ site.title | default: site.github.repository_name }}</h1>
+                    <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
             </div>
             <div class="right">
-                <div class="contact-section">
-                    <h2>Contact Me</h2>
-                    <div class="social-icons">
-                        <a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer">
-                            LinkedIn
-                            
-                        </a>
-                        <a href="https://github.com/your-username" target="_blank" rel="noopener noreferrer">
-                            GitHub
-                            
-                        </a>
-                        <a href="https://t.me/dopodix">
-                            Telegram
-                        </a>
-                        <!-- Add your mobile number here -->
-                        <span>Mobile: +91 759-799-9695</span>
-                        <span>Email: swami.ganesh@proton.me</span>
-                    </div>
+                <h2>Contact Me</h2>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer">
+                        LinkedIn   
+                    </a>
+                    <a href="https://github.com/your-username" target="_blank" rel="noopener noreferrer">
+                        GitHub
+                    </a>
+                    <a href="https://t.me/dopodix">
+                        Telegram
+                    </a>
                 </div>
+                <p>Mobile: +91 759-799-9695</p>
+                <p>Email: swami.ganesh@proton.me</p>
             </div>
         </div>
             {% if site.show_downloads %}
